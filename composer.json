@@ -1,0 +1,37 @@
+{
+    "name": "labor/googleauthenticatoraction",
+    "description": "Enhancement of the CakeDC/users Plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "auth",
+        "authentication",
+        "labor",
+		"google",
+		"authenticator"
+    ],
+    "homepage": "https://github.com/CakeDC/users",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LABOR",
+            "homepage": "https://labor.digital",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "^3.5.0",
+        "cakedc/users": "~5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+			"GoogleAuthenticatorAction\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
